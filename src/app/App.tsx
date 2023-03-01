@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
-import Calendar from "./components/Calendar";
+import Chart from "./components/Chart";
 
 function App() {
   return (
     <div className="App">
       <div className={'wrapper'}>
-        <Calendar/>
+        <Chart/>
       </div>
     </div>
   );
