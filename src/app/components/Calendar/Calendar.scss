@@ -1,0 +1,25 @@
+.calendar {
+  display: flex;
+
+  &__item {
+    border-bottom: 1px solid #ddd;
+  }
+
+  &__item {
+    width: 30px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+
+    &::after {
+      display: block;
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 9999px;
+      width: 1px;
+      background-color: #ddd;
+    }
+  }
+}
